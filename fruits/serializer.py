@@ -5,4 +5,4 @@ from .models import Fruit
 class FruitSerializer(serializers.ModelSerializer):
     class Meta:
         model = Fruit
-        fields = ("id","title","quanitity")
+        fields = ("id","title","quantity")
